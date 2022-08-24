@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BreakfastCardsModelStoreContainer" CdmEntityContainer="BreakfastCardsEntities">
+    <EntitySetMapping Name="Cards">
+      <EntityTypeMapping TypeName="BreakfastCardsModel.Cards">
+        <MappingFragment StoreEntitySet="Cards">
+          <ScalarProperty Name="YearMonth" ColumnName="YearMonth" />
+          <ScalarProperty Name="Intune" ColumnName="Intune" />
+          <ScalarProperty Name="Office" ColumnName="Office" />
+          <ScalarProperty Name="SCCM" ColumnName="SCCM" />
+          <ScalarProperty Name="Teams" ColumnName="Teams" />
+          <ScalarProperty Name="POD1" ColumnName="POD1" />
+          <ScalarProperty Name="POD2" ColumnName="POD2" />
+          <ScalarProperty Name="S500_1" ColumnName="S500_1" />
+          <ScalarProperty Name="S500_2" ColumnName="S500_2" />
+          <ScalarProperty Name="SharePoint" ColumnName="SharePoint" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

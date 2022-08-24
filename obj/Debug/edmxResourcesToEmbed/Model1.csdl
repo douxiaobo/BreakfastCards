@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BreakfastCardsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Cards">
+    <Key>
+      <PropertyRef Name="YearMonth" />
+    </Key>
+    <Property Name="YearMonth" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Intune" Type="Int32" />
+    <Property Name="Office" Type="Int32" />
+    <Property Name="SCCM" Type="Int32" />
+    <Property Name="Teams" Type="Int32" />
+    <Property Name="POD1" Type="Int32" />
+    <Property Name="POD2" Type="Int32" />
+    <Property Name="S500_1" Type="Int32" />
+    <Property Name="S500_2" Type="Int32" />
+    <Property Name="SharePoint" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="BreakfastCardsEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Cards" EntityType="Self.Cards" />
+  </EntityContainer>
+</Schema>

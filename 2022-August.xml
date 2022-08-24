@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Cards>
+    <Card>
+        <GroupName>Intune</GroupName>
+        <Quantity>4</Quantity>
+    </Card>
+    <Card>
+        <GroupName>Office</GroupName>
+        <Quantity>2</Quantity>
+    </Card>
+    <Card>
+        <GroupName>SCCM</GroupName>
+        <Quantity>12</Quantity>
+    </Card>
+    <Card>
+        <GroupName>Teams</GroupName>
+        <Quantity>6</Quantity>
+    </Card>
+    <Card>
+        <GroupName>POD1</GroupName>
+        <Quantity>9</Quantity>
+    </Card>
+    <Card>
+        <GroupName>POD2</GroupName>
+        <Quantity>8</Quantity>
+    </Card>
+    <Card>
+        <GroupName>S500 team1</GroupName>
+        <Quantity>8</Quantity>
+    </Card>
+    <Card>
+        <GroupName>S500 team2</GroupName>
+        <Quantity>5</Quantity>
+    </Card>
+    <Card>
+        <GroupName>SharePoint</GroupName>
+        <Quantity>2</Quantity>
+    </Card>
+</Cards>
+
+
+
+

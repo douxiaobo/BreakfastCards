@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BreakfastCardsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Cards">
+    <Key>
+      <PropertyRef Name="YearMonth" />
+    </Key>
+    <Property Name="YearMonth" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Intune" Type="int" />
+    <Property Name="Office" Type="int" />
+    <Property Name="SCCM" Type="int" />
+    <Property Name="Teams" Type="int" />
+    <Property Name="POD1" Type="int" />
+    <Property Name="POD2" Type="int" />
+    <Property Name="S500_1" Type="int" />
+    <Property Name="S500_2" Type="int" />
+    <Property Name="SharePoint" Type="int" />
+  </EntityType>
+  <EntityContainer Name="BreakfastCardsModelStoreContainer">
+    <EntitySet Name="Cards" EntityType="Self.Cards" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
