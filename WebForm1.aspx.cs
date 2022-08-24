@@ -26,7 +26,9 @@ namespace Breakfast_Cards_Manage_System
         string NextMonth = DateTime.Now.AddMonths(1).ToString("yyyy-MMMM", CultureInfo.GetCultureInfo("en-US"));
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+            // Github Test...
+
+
             Label_ThisMonth.Text = ThisMonth;
             Label_ThisMonth.Text += "    /" + DateTime.Now.ToString("yyyy-MMMM", CultureInfo.GetCultureInfo("zh-CN"));
             Label_ThisMonth.Text += "    /" + DateTime.Now.ToString("yyyy-MM", CultureInfo.GetCultureInfo("en-US"));
