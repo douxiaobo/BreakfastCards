@@ -20,7 +20,7 @@
         <div>
             This Month:
          
-            <asp:Label ID="Label_ThisMonth" runat="server"  Text="Label"></asp:Label>
+            <asp:Label ID="Label_ThisYearMonth" runat="server"  Text="Label"></asp:Label>
         </div>
         <div>
             <asp:GridView ID="GridView1" runat="server">
@@ -58,21 +58,40 @@
         <div>
             Next Month:
          
-            <asp:Label ID="Label_NextMonth" runat="server"  Text="Label"></asp:Label>
+            <asp:Label ID="Label_NextYearMonth" runat="server"  Text="Label"></asp:Label>
+        </div>
+        <hr />
+        <div>
+            Add:增加：<br />
+            Year:<asp:DropDownList ID="DropDownList_Add_Year" runat="server" AutoPostBack="false"></asp:DropDownList>
+            Month:<asp:DropDownList ID="DropDownList_Add_Month" runat="server" AutoPostBack="false"></asp:DropDownList>
+            Group Name:<asp:DropDownList ID="DropDownList_Add_GroupName" runat="server" AutoPostBack="false"></asp:DropDownList>
+            Quantity:<asp:TextBox ID="TextBox_Add_Quantity" runat="server"></asp:TextBox>
+            <asp:Button ID="Button_Add_Comfirm" runat="server" Text="Add" OnClick="Button_Add_Comfirm_Click" />
         </div>
         <div>
-            增加：
+            Delete:删除：<br />
+            Year:<asp:DropDownList ID="DropDownList_Delete_Year" runat="server" AutoPostBack="false"></asp:DropDownList>
+            Month:<asp:DropDownList ID="DropDownList_Delete_Month" runat="server" AutoPostBack="false"></asp:DropDownList>
+            Group Name:<asp:DropDownList ID="DropDownList_Delete_GroupName" runat="server" AutoPostBack="false"></asp:DropDownList>
+            <asp:Button ID="Button_Delete" runat="server" Text="Delete" OnClick="Button_Detele_Click" />
         </div>
         <div>
-            删除：
+            Revise:修改：<br />
+            Year:<asp:DropDownList ID="DropDownList_Revise_Year" runat="server" AutoPostBack="false"></asp:DropDownList>
+            Month:<asp:DropDownList ID="DropDownList_Revise_Month" runat="server" AutoPostBack="false"></asp:DropDownList>
+            Group Name:<asp:DropDownList ID="DropDownList_Revise_GroupName" runat="server" AutoPostBack="false"></asp:DropDownList>
+            Quantity:<asp:TextBox ID="TextBox_Revise_Quantity" runat="server"></asp:TextBox>
+            <asp:Button ID="Button_Revise" runat="server" Text="Revise" />
         </div>
         <div>
-            修改：
+            Inquiry:查询<br />
+            Year:<asp:DropDownList ID="DropDownList_Inquiry_Year" runat="server" AutoPostBack="false"></asp:DropDownList>
+            Month:<asp:DropDownList ID="DropDownList_Inquiry_Month" runat="server" AutoPostBack="false"></asp:DropDownList>
+            Group Name:<asp:DropDownList ID="DropDownList_Inquiry_GroupName" runat="server" AutoPostBack="false"></asp:DropDownList>
+            <asp:Button ID="Button_Inquiry" runat="server" Text="Inquiry" />
         </div>
-        <div>
-            查询<br />
-            日期：团队：
-        </div>
+        <hr />
         <div style="font-family:Arial">
             <asp:GridView ID="GridView2" runat="server" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="YearMonth" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None">
                 <AlternatingRowStyle BackColor="White" />
