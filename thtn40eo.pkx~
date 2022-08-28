@@ -105,22 +105,22 @@ namespace Breakfast_Cards_Manage_System
         protected global::System.Web.UI.WebControls.DropDownList DropDownList_Add_Month;
 
         /// <summary>
-        /// DropDownList_Add_GroupName 控件。
+        /// DropDownList_GroupName 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList_Add_GroupName;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList_GroupName;
 
         /// <summary>
-        /// TextBox_Add_Quantity 控件。
+        /// TextBox2 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox_Add_Quantity;
+        protected global::System.Web.UI.WebControls.TextBox TextBox2;
 
         /// <summary>
         /// Button_Add_Comfirm 控件。
@@ -130,123 +130,6 @@ namespace Breakfast_Cards_Manage_System
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button_Add_Comfirm;
-
-        /// <summary>
-        /// DropDownList_Delete_Year 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList_Delete_Year;
-
-        /// <summary>
-        /// DropDownList_Delete_Month 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList_Delete_Month;
-
-        /// <summary>
-        /// DropDownList_Delete_GroupName 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList_Delete_GroupName;
-
-        /// <summary>
-        /// Button_Delete 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button_Delete;
-
-        /// <summary>
-        /// DropDownList_Revise_Year 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList_Revise_Year;
-
-        /// <summary>
-        /// DropDownList_Revise_Month 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList_Revise_Month;
-
-        /// <summary>
-        /// DropDownList_Revise_GroupName 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList_Revise_GroupName;
-
-        /// <summary>
-        /// TextBox_Revise_Quantity 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox_Revise_Quantity;
-
-        /// <summary>
-        /// Button_Revise 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button_Revise;
-
-        /// <summary>
-        /// DropDownList_Inquiry_Year 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList_Inquiry_Year;
-
-        /// <summary>
-        /// DropDownList_Inquiry_Month 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList_Inquiry_Month;
-
-        /// <summary>
-        /// DropDownList_Inquiry_GroupName 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList_Inquiry_GroupName;
-
-        /// <summary>
-        /// Button_Inquiry 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button_Inquiry;
 
         /// <summary>
         /// GridView2 控件。
